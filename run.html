@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: #CB9DF0">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Run Shoes</title>
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+        h1{
+            background-color: #432E54;
+            text-align:center;
+            color:white;
+        }
+        @media (min-width:319px) and (max-width:480px) {
+            img {
+                height: 150px;
+                width: 200px;
+            }
+        }
+
+        @media (min-width: 481px) and (max-width:1200px) {
+            img {
+                height: 200px;
+                width: 260px;
+            }
+        }
+
+        @media (min-width: 1201px) and (max-width: 1600px) {
+            img {
+                height: 200px;
+                width: 310px;
+            }
+        }
+
+        .flex-container {
+            display: flex;
+            gap: 5px;
+            flex-wrap: wrap;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>New Shuvam Footwear</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./index.html">About Us</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Run Shoes, Never Stops</h1>
+
+    <div class="flex-container">
+        <div id="first">
+            <img src="./runshoes/runboot1.jpg" alt="Run boot 1"/>
+        </div>
+
+        <div id="second">
+            <img src="./runshoes/runboot2.jpg" alt="Run boot 2"/>
+        </div>
+        
+        <div id="third">
+            <img src="./runshoes/runboot3.jpg" alt="Run boot 3"/>
+        </div>
+    
+        <div id="fourth">
+            <img src="./runshoes/runboot4.jpg" alt="Run boot 4"/>
+        </div>
+    
+        <div id="fifth">
+            <img src="./runshoes/runpartyshoe1.jpg" alt="Run party shoe 1"/>
+        </div>
+       
+        <div id="sixth">
+            <img src="./runshoes/runpartyshoe2.jpg" alt="Run party shoe 2"/>
+        </div>
+       
+        <div id="seventh">
+            <img src="./runshoes/runpartyshoe3.jpg" alt="Run party shoe 3"/>
+        </div>
+    
+        <div id="eight">
+            <img src="./runshoes/runpartyshoe4.jpg" alt="Run party shoe 4"/>
+        </div>
+    
+        <div id="ninth">
+            <img src="./runshoes/runloafers1.jpg" alt="Run Loafers 1"/>
+        </div>
+        
+        <div id="tenth">
+            <img src="./runshoes/run1.jpg" alt="Run shoes 1"/>
+        </div>
+        
+        <div id="eleventh">
+            <img src="./runshoes/run3.jpg" alt="Run shoes 3"/>
+        </div>
+        
+        <div id="twelve">
+            <img src="./runshoes/run2.jpg" alt="Run shoes 2"/>
+        </div>
+        
+        <div id="thirteenth">
+            <img src="./runshoes/run8.jpg" alt="Ladies Sandle 1"/>
+        </div>
+    
+        <div id="fourteenth">
+            <img src="./runshoes/run4.jpg" alt="Run shoes 4"/>
+        </div>
+        
+        <div id="fifteenth">
+            <img src="./runshoes/run7.jpg" alt="Run shoes 5"/>
+        </div>
+       
+        <div id="sixteenth">
+            <img src="./runshoes/run6.jpg" alt="Run shoe 6"/>
+        </div>
+    </div>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 New Shuvam Footwear. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
